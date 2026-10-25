@@ -1,0 +1,18 @@
+# Conda environment for the Almirall HS hackathon notebooks (team skincaredivas)
+# Tested with: python 3.13, pandas 3.0.5, numpy 2.5.3, scipy 1.18, scikit-learn 1.9.1,
+#              lightgbm 4.7.0, matplotlib 3.11.2, pyarrow 26
+name: hs-hackathon
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pandas>=3.0
+  - numpy>=2.2
+  - scipy>=1.14
+  - scikit-learn>=1.6
+  - lightgbm>=4.6
+  - matplotlib>=3.9
+  - pyarrow>=18
+  - jupyterlab>=4
+  - ipykernel
+  - nbconvert
