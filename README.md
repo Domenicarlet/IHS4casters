@@ -242,5 +242,4 @@ python -m ipykernel install --user --name hs-hackathon --display-name "HS hackat
 # and run 01 → 02 → 03 → 04 (about 5 minutes in total)
 ```
 
-The team name is set in the variable `TEAM_NAME` at the top of every notebook and is used in the answer
-file names. Notebooks 03 and 04 read what 02 saves in `work/`, so run them in order.
+
